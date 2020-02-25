@@ -1,14 +1,114 @@
+
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "flightStatusInfo": {
+    "carrierCode": "UA",
+    "flightNumber": "123",
+    "codeShareflightNumber": "",
+    "flightDate": "2020-02-19",
+    "airportAdvisoryMessage": {
+      "buttonTitle": null,
+      "headerTitle": null,
+      "advisoryMessages": []
+    },
+    "segments": [
+      {
+        "scheduledFlightTime": "8h 21m",
+        "actualFlightTime": "",
+        "estimatedDepartureDateTime": "2/19/2020 7:30 AM",
+        "estimatedArrivalDateTime": "2/19/2020 11:22 AM",
+        "actualDepartureDateTime": "2/19/2020 7:16 AM",
+        "actualArrivalDateTime": "2/19/2020 11:19 AM",
+        "departureTerminal": "Terminal 2",
+        "arrivalTerminal": "Concourse C",
+        "departureGate": "B48",
+        "arrivalGate": "C4",
+        "ship": {
+          "id": "3112",
+          "noseNumber": null,
+          "tailNumber": null,
+          "aircraft": {
+            "code": "752",
+            "shortName": "B757-200",
+            "longName": "Boeing 757-200",
+            "modelCode": ""
+          },
+          "cabinCount": 2
+        },
+        "operatingCarrier": {
+          "code": "UA",
+          "name": "United Airlines",
+          "flightNumber": "123"
+        },
+        "codeShareCarrier": null,
+        "status": "Arrived Gate 4 Minutes Late",
+        "enableSeatMap": true,
+        "enableStandbyList": false,
+        "enableUpgradeList": false,
+        "enableAmenity": true,
+        "codeShareflightNumber": "",
+        "canPushNotification": false,
+        "isSegmentCancelled": false,
+        "getInBoundSegment": true,
+        "inBoundSegment": {
+          "arrivalAirport": "LHR",
+          "arrivalAirportName": "London, GB (LHR)",
+          "carrierCode": "UA",
+          "departureAirport": "IAD",
+          "departureAirportName": "Washington, DC, US (IAD)",
+          "departureDate": "2020-02-18",
+          "flightNumber": "122"
+        },
+        "isWiFiAvailable": true,
+        "lastUpdatedGMT": "",
+        "pushNotificationRegId": "",
+        "statusShort": "Landed",
+        "baggage": {
+          "bagTerminal": "",
+          "bagClaimUnit": "Carousel   B",
+          "hasBagLocation": true
+        },
+        "arrivalAirport": "Washington, DC (IAD)",
+        "departureAirport": "London, GB (LHR)",
+        "enableAllFlifoTopTabs": true,
+        "enableFlifoPushNotification": true,
+        "enableShareMyFlight": true,
+        "enableWhereAircraftCurrently": true,
+        "enableWhereAirCraftCurrently": true,
+        "flightStatusSegmentDetails": null,
+        "isShuttleService": false,
+        "addToComplications": true,
+        "marketingCarrier": {
+          "code": "UA",
+          "name": "",
+          "flightNumber": ""
+        },
+        "flightNumber": "123",
+        "departure": {
+          "code": "LHR",
+          "name": "London, GB (LHR)",
+          "city": "London"
+        },
+        "arrival": {
+          "code": "IAD",
+          "name": "Washington, DC, US (IAD)",
+          "city": "Washington"
+        },
+        "scheduledDepartureDateTime": "2/19/2020 7:30 AM",
+        "scheduledArrivalDateTime": "2/19/2020 11:15 AM",
+        "scheduledDepartureTimeGMT": "2020-02-19T07:30:00",
+        "scheduledArrivalTimeGMT": "2020-02-19T16:15:00",
+        "formattedScheduledDepartureDateTime": "",
+        "formattedScheduledArrivalDateTime": "",
+        "formattedScheduledDepartureDate": "",
+        "formattedScheduledArrivalDate": "",
+        "formattedScheduledDepartureTime": "",
+        "formattedScheduledArrivalTime": ""
+      }
+    ]
+  },
+  "transactionId": "D60EC562-0AA4-4182-AF55-9FA40FAC570D|1152BB16-3E04-4E9B-87D3-EC9F8FE8C554",
+  "languageCode": "en-US",
+  "machineName": "03",
+  "callDuration": 532,
+  "exception": null
 }
